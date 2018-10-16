@@ -3,9 +3,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Terminal=false
-Icon=/opt/jetbrains/idea-IC-145.1617.8/bin/idea.png
-Exec=sh -c "export JDK_HOME=/opt/java/jdk1.8.0_181 && GRADLE_HOME=/opt/gradle/gradle-4.9 && export GOROOT=/opt/google/go && export GOPATH=$HOME/go && export M2_HOME=/opt/apache/maven/apache-maven-3.2.5 && /opt/jetbrains/idea-IC-145.1617.8/bin/idea.sh"
 Name=IntelliJ IDEA 2018.1
+Icon=/opt/jetbrains/idea-IC-181.5087.20/bin/idea.png
+Exec=sh -c "export JDK_HOME=/opt/java/jdk1.8.0_181 && export GRADLE_HOME=/opt/gradle/gradle-4.9 && export M2_HOME=/opt/apache/maven/apache-maven-3.2.5 && export GOROOT=/opt/go/go-1.9.2 && export GOPATH=$HOME/golang && /opt/jetbrains/idea-IC-181.5087.20/bin/idea.sh" %f
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
 StartupNotify=true
-StartupWMClass=jetbrains-idea-ic
+StartupWMClass=jetbrains-idea
