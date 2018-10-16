@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Category=Development
+Name=Postman
+Icon=/opt/Postman/resources/app/assets/icon.png
+Path=/opt/Postman
+Exec=/usr/bin/postman
+StartupNotify=false
+StartupWMClass=Postman
+OnlyShowIn=Unity;GNOME;
+X-UnityGenerated=true
